@@ -50,6 +50,4 @@ Inicialmente la pagina solo recibia pagos en efectivo y transferencias a su cuen
 - Tres de mis compañeras realizaron feedback sobre mi prototipo inicial y todas concidieron en que el esquema era el adecuado y que solo hay que complementarlo con CSS evitando un choque visual y haciendo lucir confiable la app.
 
 ##### Documentacion Prototipo Final
-
-![prototipo](../imagenes/prototipo.jpg)
-![](/prototipo.jpg)
+https://github.com/nicolarabarca/SCL017-card-validation/blob/6438f53723c2a2bbe7adf48d68e54f9a3f68a9ef/src/imagenes/prototipo.jpg

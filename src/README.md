@@ -20,8 +20,6 @@ Inicialmente la pagina solo recibia pagos en efectivo y transferencias a su cuen
 
 ### Documentacion inicial de prototipo.
 
-https://github.com/nicolarabarca/SCL017-card-validation/blob/8027d3b9b7e0d9b83cf40ddb3e4ec5b57702bd40/src/protipopapel.jpg
-
 _Creacion de app web llamada validacion de tarjeta credito para que sea utilizada en tienda dedicada a la venta de insumo de mascotas, esta debe generar confianza y a la vez resguardar la confidencialidad de los datos ingrsados. _
 
 ### Lenguaje utilizado

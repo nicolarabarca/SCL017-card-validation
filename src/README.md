@@ -1,6 +1,6 @@
 # Card Validator.
 
-_Creacion de app web llamada validacion de tarjeta credito para que sea utilizada en tienda dedicada a la venta de insumo de mascotas, esta debe generar confianza y a la vez resguardar la confidencialidad de los datos ingrsados. _
+Creacion de app web llamada validacion de tarjeta credito para que sea utilizada en tienda dedicada a la venta de insumo de mascotas, esta debe generar confianza y a la vez resguardar la confidencialidad de los datos ingrsados. _
 
 ### Lenguaje utilizado
 
@@ -9,8 +9,6 @@ _Creacion de app web llamada validacion de tarjeta credito para que sea utilizad
 - HTML
 - CSS
 - JavaScript
-
-## Prototipo Final
 
 ### Investigacion UX
 

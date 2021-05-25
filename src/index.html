@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+
+<head>
+    <title>Card Validation</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href= "https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap"  rel="stylesheet">
+
+    <meta charset="utf-8"/>
+</head>
+
+<body>
+    <link href="index.css" rel="stylesheet" type="text/css" />
     <script src="index.js" type="module"></script>
-  </body>
+    <script src="https://kit.fontawesome.com/e72ea05806.js" crossorigin="anonymous"></script>
+
+    <div class="box1">
+        <div class="validatorCard">Validacion Tarjeta. (Card Validation)
+
+            <p>
+            <div class="elementType">Tipo Tarjeta (Card Type)</div>
+            <img class="img" src="tarjeta1.png">
+            <input type="radio" name="option" id="option1" value="option1" checked >
+            <img class="img1" src="tarjeta2.png">
+            <input type="radio" name="option" id="option2" value="option2" required>
+
+
+            <p>
+                <form action="" method="POST">
+                <label for="name"> Nombre: </label>
+                <input type="text" id="ownerName" required placeholder="Owner Name" onkeypress="return (event.charCode == 209 || event.charCode == 241 || (event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))"  />
+                <label for="apellido">Apellido: </label> 
+                <input type="text" id="letters" placeholder="Surname" onkeypress="return (event.charCode == 209 || event.charCode == 241 || (event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))"  />
+                <br>
+                <label for="fecha">Fecha Expiración / expires on </label>
+                <input id="expiresOn" required type="month"
+                    >
+                <label for="cvv"><i class="far fa-credit-card"></i> </label>
+                <input class="cVv" id="cvv" 
+                    type="numbers" maxlength="3" minlength="3" required placeholder="CVV"
+                    onkeypress="return event.charCode >= 48 && event.charCode <= 57" />
+
+                <br>
+                <label for="numeros"><i class="fas fa-paw"></i></label> Numero Tarjeta(Card Number)
+                <input id="numberCard" required type="numbers" placeholder="xxxx-xxxx-xxxx-4556"
+                    onkeypress="return event.charCode >= 48 && event.charCode <= 57" onkeyup="maskify()"
+                    maxlength="16" />
+                <span style="color: red">*</span>
+                <br>
+            <div> <button class="button" onclick="validateCard()">Enviar</button> </div>
+        </form>
+            </p>
+        </p>
+
+        </div>
+
+
+    </div>
+
+<footer> <b> Derechos reservaodos @NicoLara</b> </footer>
+
+</body>
+
 </html>

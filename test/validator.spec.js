@@ -1,44 +1,22 @@
 // importamos el objeto `validator`, que contiene las funciones `isValid` y `maskify`
-import validator from '../src/validator';
+import Validator from '../src/validator';
 
-describe('validator', () => {
-  it('debería ser un objeto', () => {
-    expect(typeof validator).toBe('object');
+
+describe('Test Validador', () => {
+  test('debería retornar true para 4137894711755904', () => {
+      expect(
+        (new Validator).isValid('4137894711755904')
+        ).toBe(true);
   });
-
-  describe('validator.isValid', () => {
-    it('debería ser una función', () => {
-      expect(typeof validator.isValid).toBe('function');
-    });
-
-    it.skip('debería retornar true para "4083952015263"', () => {
-      // escribe aquí tu test
-    });
-
-    it.skip('debería retornar true para "79927398713"', () => {
-      // escribe aquí tu test
-    });
-
-    it.skip('debería retornar false para "1234567890"', () => {
-      // escribe aquí tu test
-    });
+  test('debería retornar false para "1234567890"', () => {
+      expect(
+        (new Validator).isValid('1234567890')
+        ).toBe(false);
   });
-
-  describe('validator.maskify', () => {
-    it('debería ser una función', () => {
-      expect(typeof validator.maskify).toBe('function');
-    });
-
-    it.skip('Debería retornar "############5616" para "4556364607935616"', () => {
-      // escribe aquí tu test
-    });
-
-    it.skip('Debería retornar "1" para "1"', () => {
-      // escribe aquí tu test
-    });
-
-    it.skip('Debería retornar "######orld" para "helloworld"', () => {
-      // escribe aquí tu test
-    });
-  });
+  test('probar maskify, deberia pasar', () => {
+    expect(
+      (new Validator).maskify('4137894711755904')
+      ).toBe('############5904');
 });
+});
+

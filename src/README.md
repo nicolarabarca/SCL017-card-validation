@@ -20,8 +20,6 @@ Inicialmente la pagina solo recibia pagos en efectivo y transferencias a su cuen
 
 ### Documentacion inicial de prototipo.
 
-![pro1.
-
 _Creacion de app web llamada validacion de tarjeta credito para que sea utilizada en tienda dedicada a la venta de insumo de mascotas, esta debe generar confianza y a la vez resguardar la confidencialidad de los datos ingrsados. _
 
 ### Lenguaje utilizado
@@ -55,9 +53,9 @@ Inicialmente la pagina solo recibia pagos en efectivo y transferencias a su cuen
 
 ###### Objetivos Personales
 
-Aprender a usar github y otras plataformas que ayuden a complementar el trabajo con Visual Code. 
-Aprender a desarrollar de mejor manera la experiencia de usuario.
-Entender y aplicar algoritmo de Luhn
-Manejo de eventos del DOM.
-mejorar manejo de HTML y CSS.
+-Aprender a usar github y otras plataformas que ayuden a complementar el trabajo con Visual Code. 
+-Aprender a desarrollar de mejor manera la experiencia de usuario.
+-Entender y aplicar algoritmo de Luhn.
+-Manejo de eventos del DOM.
+-Mejorar manejo de HTML y CSS.
 

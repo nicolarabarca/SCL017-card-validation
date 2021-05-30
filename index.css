@@ -1,0 +1,80 @@
+body {
+  background-image: url(../imagenes/background1.jpg);
+}
+
+/*
+      Aqui podemos agregar color, tipo de  fuente, tamaño y posicionamiento  en este  caso  sobre el texto (Validacion Tarjeta/Card Validation)
+       */
+
+.validatorCard {
+  color: black;
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 20px;
+  text-align: center;
+}
+/*
+                  Aqui  se  agrega  una caja (cuadrado en este  caso de  color  blanco) sobre el fondo principal donde  se  alojara  texto principal.
+                  Puedes  cambiar  color, tamaño, cambiar margenes.
+                   */
+.box1 {
+  background-color: white;
+  width: 700px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  line-height: 50px;
+}
+/*
+                  Aqui podremos cambiar color, tamaño, alienacion de texto "Tipo Tarjeta /Card Type"
+                   */
+.elementType {
+  color: black;
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 20px;
+  text-align: left;
+  margin: 20px;
+}
+/*
+                  Aqui podremos dar margenes, tamaño  y en este caso  usando  ubicara la imagen  al lado izquierdo o derecho,
+                   permitiendo a los elementos de texto y en línea aparecer a su costado
+                   */
+.img {
+  width: 80px;
+  height: 70px;
+  float: unset;
+  margin: 0px 0px 30px 30px;
+}
+/*
+                  Aqui podremos dar margenes, tamaño  y en este caso  usando  ubicara la imagen  al lado izquierdo o derecho,
+                   permitiendo a los elementos de texto y en línea aparecer a su costado
+                   */
+.img1 {
+  width: 80px;
+  height: 70px;
+  float: unset;
+  margin: 0px 0px 30px 30px;
+}
+
+/*Aqui podremos hacer modificaciones al boton enviar que en este caso completara la accion de validar tarjeta */
+.button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+/*Aqui podremos hacer modificaciones en el campo CVV */
+.cVv {
+  width: 30px;
+  height: 15px;
+}
+/*se  define  para  ocultar  el numero de  tarjeta  a validar*/
+.hidden {
+  display: none;
+}

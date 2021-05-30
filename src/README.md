@@ -51,7 +51,6 @@ Inicialmente la pagina solo recibia pagos en efectivo y transferencias a su cuen
 
 ##### Documentacion Prototipo Final
 
-![prototipo](../imagenes/prototipo.jpg)
-![](/prototipo.jpg)
+![prototipo](https://github.com/nicolarabarca/SCL017-card-validation/blob/master/src/imagenes/prototipo.jpg)
 
 ###### Objetivos Personales

@@ -18,5 +18,20 @@ describe('Test Validador', () => {
       (new Validator).maskify('4137894711755904')
       ).toBe('############5904');
 });
+test('probar maskify,  no deberia pasar', () => {
+  expect(
+    (new Validator).maskify('4137894711755904')
+    ).toBe('###########5904');
 });
+
+test('probar si new validator es un  objeto', () => {
+  expect(
+    (new Validator)).toBe(Object);
+});
+test('deberia retornar que no es una funcion ', () => {
+  expect(
+    (new Validator)).toBe(Function);
+});
+});
+
 

@@ -4,7 +4,7 @@
 <head>
     <title>Card Validation</title>
     <link href="index.css" rel="stylesheet" type="text/css" />
-    <link href= "https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap"  rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 
     <meta charset="utf-8"/>
 </head>
@@ -20,35 +20,38 @@
             <p>
             <div class="elementType">Tipo Tarjeta (Card Type)</div>
             <img class="img" src="tarjeta1.png">
-            <input type="radio" name="option" id="option1" value="option1" checked >
+            <input type="radio" name="option" id="option1" value="option1" checked>
             <img class="img1" src="tarjeta2.png">
-            <input type="radio" name="option" id="option2" value="option2" required>
+            <input type="radio" name="option" id="option2" value="option2">
 
 
             <p>
-                <form action="" method="POST">
                 <label for="name"> Nombre: </label>
-                <input type="text" id="ownerName" required placeholder="Owner Name" onkeypress="return (event.charCode == 209 || event.charCode == 241 || (event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))"  />
+                <input type="text" id="ownerName" required placeholder="Owner Name">
                 <label for="apellido">Apellido: </label> 
-                <input type="text" id="letters" placeholder="Surname" onkeypress="return (event.charCode == 209 || event.charCode == 241 || (event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))"  />
+                <input type="text" id="letters" required pattern="[a-zA-Z]+"
+                    placeholder="Surname">
                 <br>
                 <label for="fecha">Fecha Expiración / expires on </label>
                 <input id="expiresOn" required type="month"
                     >
                 <label for="cvv"><i class="far fa-credit-card"></i> </label>
                 <input class="cVv" id="cvv" 
-                    type="numbers" maxlength="3" minlength="3" required placeholder="CVV"
+                    type="numbers" maxlength="3" required placeholder="CVV"
                     onkeypress="return event.charCode >= 48 && event.charCode <= 57" />
+
+
 
                 <br>
                 <label for="numeros"><i class="fas fa-paw"></i></label> Numero Tarjeta(Card Number)
                 <input id="numberCard" required type="numbers" placeholder="xxxx-xxxx-xxxx-4556"
-                    onkeypress="return event.charCode >= 48 && event.charCode <= 57" onkeyup="maskify()"
-                    maxlength="16" />
+                    onkeypress="return event.charCode >= 48 && event.charCode <= 57" onkeyup="maskify(event)"
+                   onkeydown="updateCardnumber(event)" maxlength="16" />
+                <input id="numberCardAux" required type="numbers" class="hidden"/>
                 <span style="color: red">*</span>
                 <br>
             <div> <button class="button" onclick="validateCard()">Enviar</button> </div>
-        </form>
+
             </p>
         </p>
 
@@ -57,7 +60,7 @@
 
     </div>
 
-<footer> <b> Derechos reservaodos @NicoLara</b> </footer>
+<footer>Derechos reservaodos @NicoLara</footer>
 
 </body>
 

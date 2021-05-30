@@ -9,7 +9,7 @@ body {
 .validatorCard {
   color: black;
   font-family: "Annie Use Your Telescope", cursive;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
 }
 /*
@@ -31,7 +31,7 @@ body {
 .elementType {
   color: black;
   font-family: "Annie Use Your Telescope", cursive;
-  font-size: 25px;
+  font-size: 20px;
   text-align: left;
   margin: 20px;
 }
@@ -67,11 +67,14 @@ body {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer;
 }
 
 /*Aqui podremos hacer modificaciones en el campo CVV */
 .cVv {
   width: 30px;
   height: 15px;
+}
+/*se  define  para  ocultar  el numero de  tarjeta  a validar*/
+.hidden {
+  display: none;
 }

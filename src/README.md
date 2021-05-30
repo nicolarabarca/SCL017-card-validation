@@ -1,6 +1,6 @@
 # Card Validator.
 
-Creacion de app web llamada validacion de tarjeta credito para que sea utilizada en tienda dedicada a la venta de insumo de mascotas, esta debe generar confianza y a la vez resguardar la confidencialidad de los datos ingrsados. _
+Creacion de app web llamada validacion de tarjeta credito para que sea utilizada en tienda dedicada a la venta de insumo de mascotas, esta debe generar confianza y a la vez resguardar la confidencialidad de los datos ingrsados. \_
 
 ### Lenguaje utilizado
 
@@ -19,6 +19,8 @@ Inicialmente la pagina solo recibia pagos en efectivo y transferencias a su cuen
 - Por otra parte el dueño de la tienda contara con una app que se mostrara confiable para sus clientes y tendra la ventaja y seguridad de que todos los pagos que se realicen seran reales ya que las tarjetas tendran que pasar por el filtro validacion de tarjeta.
 
 ### Documentacion inicial de prototipo.
+
+![prototipo] # Card Validator.
 
 _Creacion de app web llamada validacion de tarjeta credito para que sea utilizada en tienda dedicada a la venta de insumo de mascotas, esta debe generar confianza y a la vez resguardar la confidencialidad de los datos ingrsados. _
 
@@ -40,8 +42,8 @@ Inicialmente la pagina solo recibia pagos en efectivo y transferencias a su cuen
 
 ### Documentacion Prototipo Inicial.
 
-![prototipo](https://github.com/nicolarabarca/SCL017-card-validation/blob/8027d3b9b7e0d9b83cf40ddb3e4ec5b57702bd40/src/protipopapel.jpg)
-
+![prototipo](../images/prototipapel.jpg)
+![](/prototipopapel.jpg)
 
 #### Resumen Feedback
 
@@ -49,6 +51,7 @@ Inicialmente la pagina solo recibia pagos en efectivo y transferencias a su cuen
 
 ##### Documentacion Prototipo Final
 
-![prototipo](https://github.com/nicolarabarca/SCL017-card-validation/blob/6438f53723c2a2bbe7adf48d68e54f9a3f68a9ef/src/imagenes/prototipo.jpg)
-![](/prototipopapel.jpg)
+![prototipo](../imagenes/prototipo.jpg)
+![](/prototipo.jpg)
 
+###### Objetivos Personales

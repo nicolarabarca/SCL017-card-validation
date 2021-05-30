@@ -20,7 +20,7 @@ Inicialmente la pagina solo recibia pagos en efectivo y transferencias a su cuen
 
 ### Documentacion inicial de prototipo.
 
-![prototipo] # Card Validator.
+![pro1.
 
 _Creacion de app web llamada validacion de tarjeta credito para que sea utilizada en tienda dedicada a la venta de insumo de mascotas, esta debe generar confianza y a la vez resguardar la confidencialidad de los datos ingrsados. _
 
@@ -42,7 +42,7 @@ Inicialmente la pagina solo recibia pagos en efectivo y transferencias a su cuen
 
 ### Documentacion Prototipo Inicial.
 
-![prototipo](../images/prototipapel.jpg)
+![prototipo](https://github.com/nicolarabarca/SCL017-card-validation/edit/master/src/images/prototipapel.jpg)
 ![](/prototipopapel.jpg)
 
 #### Resumen Feedback

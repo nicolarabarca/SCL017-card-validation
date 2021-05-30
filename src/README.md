@@ -52,6 +52,7 @@ Inicialmente la pagina solo recibia pagos en efectivo y transferencias a su cuen
 ![prototipo](https://github.com/nicolarabarca/SCL017-card-validation/blob/master/src/imagenes/prototipo.jpg)
 
 ###### Objetivos Personales
+---
 
 -Aprender a usar github y otras plataformas que ayuden a complementar el trabajo con Visual Code. 
 -Aprender a desarrollar de mejor manera la experiencia de usuario.

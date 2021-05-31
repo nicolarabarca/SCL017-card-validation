@@ -42,3 +42,7 @@ _Creacion de app web llamada validacion de tarjeta credito para que sea utilizad
 - Manejo de eventos del DOM.
 - Mejorar manejo de HTML y CSS.
 
+# Enlace proyecto
+
+- Si deseas  ver  mi proyecto  puedes  ingresar al siguiente enlace : https://nicolarabarca.github.io/SCL017-card-validation/
+
